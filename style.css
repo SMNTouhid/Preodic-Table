@@ -1,0 +1,19 @@
+@font-face {
+    font-family: SolaimanLipi;
+    src: url(SolaimanLipi.ttf);
+}
+@font-face {
+    font-family: Niladri;
+    src: url(Niladri.ttf);
+}
+
+body {
+    font-family: SolaimanLipi;
+}
+h1 {
+    font-family: Niladri;
+    text-align: center;
+}
+li {
+    list-style: none;
+}
