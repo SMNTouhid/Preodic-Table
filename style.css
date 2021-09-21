@@ -24,22 +24,12 @@
 .right {
     text-align: right;
 }
-/* li {
-    list-style: none;
-    height: 100px;
-    width: 75px;
-    float: left;
-    border: 1px solid lightgrey;
-    padding: 3px;
-    margin: 2px;
-} */
 .grid-container {
     display: grid;
     grid-gap: 2px;
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
     padding: 10px;
-}
-  
+} 
 .grid-item {
     border: 1px solid lightgrey;
     text-align: left;
@@ -60,15 +50,33 @@
     grid-column-start: 4;
     grid-column-end: 14;
 }
-/* .item1 {
-    grid-column-start: 1;
-    grid-column-end: 3;
-  } */
-/* .item4 , .item5{
-    grid-row-start: 2;
-    grid-row-end: 4;
-} */
-/* .item2 {
-    grid-column-start: 2;
-    grid-column-end: 19;
-} */
+.item1 {
+    background-color: greenyellow;
+}
+.item3, .item11, .item19, .item37, .item55, .item87 {
+    background-color: gold;
+} 
+.item4, .item12, .item20, .item38, .item56, .item88 {
+    background-color: lightgoldenrodyellow;
+}
+.item21, .item22, .item23, .item24, .item25, .item26, .item27, .item28, .item29, .item30, .item39, .item40, .item41, .item42, .item43, .item44, .item45, .item46, .item47, .item48, .item72, .item73, .item74, .item75, .item76, .item77, .item78, .item79, .item80, .item104, .item105, .item106, .item107, .item108, .item109, .item110, .item111, .item112 {
+    background-color: lightpink;
+}
+.item03, .item57, .item58, .item59, .item60, .item61, .item62, .item63, .item64, .item65, .item66, .item67, .item68, .item69, .item70, .item71 {
+    background-color: yellow;
+}
+.item04, .item89, .item90, .item91, .item92, .item93, .item94, .item95, .item96, .item97, .item98, .item99, .item100, .item101, .item102, .item103 {
+    background-color: orange;
+}
+.item5, .item13, .item14, .item31, .item32, .item33, .item49, .item50, .item51, .item52, .item81, .item82, .item83, .item84, .item113, .item114, .item115, .item116 {
+    background-color: lightsteelblue;
+}
+.item6, .item7, .item8, .item15, .item16, .item34 {
+    background-color: lightgreen;
+}
+.item9, .item17, .item35, .item53, .item85, .item117 {
+    background-color:mediumpurple;
+}
+.item2, .item10, .item18, .item36, .item54, .item86, .item118 {
+    background-color: lightskyblue;
+}
