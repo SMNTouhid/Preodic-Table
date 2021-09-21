@@ -6,13 +6,23 @@
     font-family: Niladri;
     src: url(Niladri.ttf);
 }
-
-body {
+.bangla {
     font-family: SolaimanLipi;
 }
-h1 {
+.Symbol {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.heading {
     font-family: Niladri;
     text-align: center;
+    font-size: 50px;
+}
+.left {
+    float: left;
+}
+.right {
+    text-align: right;
 }
 /* li {
     list-style: none;
