@@ -32,10 +32,13 @@ h1 {
   
 .grid-item {
     border: 1px solid lightgrey;
-    text-align: center;
+    text-align: left;
+    width: 100px;
+    padding: 5px;
 }
 .item0 {
     border: none;
+    text-align: center;
 }
 .item01 {
     border: none;
